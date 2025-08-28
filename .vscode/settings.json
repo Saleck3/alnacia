@@ -1,5 +1,0 @@
-{
-    "chat.agent.enabled": false,
-    "chat.commandCenter.enabled": false,
-    "telemetry.feedback.enabled": false
-}
