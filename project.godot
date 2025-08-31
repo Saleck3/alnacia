@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Alnacia"
+run/main_scene="uid://b1vh7rj74xrwi"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 

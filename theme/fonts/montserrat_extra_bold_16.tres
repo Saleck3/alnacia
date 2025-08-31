@@ -1,6 +1,6 @@
 [gd_resource type="FontFile" load_steps=2 format=2]
 
-[ext_resource path="res://theme/fonts/montserrat_extra_bold.otf" type="FontFile" id=1]
+[ext_resource type="FontFile" uid="uid://b2r8e5d6rc4pg" path="res://theme/fonts/montserrat_extra_bold.otf" id="1"]
 
 
 [resource]
