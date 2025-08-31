@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dlsovkeg1ggro"
+path="res://.godot/imported/nat-llegada.dialogue-ed6e5b7e8cd06d02e22cda39a5c9ecad.tres"
+
+[deps]
+
+source_file="res://dialogues/nat-llegada.dialogue"
+dest_files=["res://.godot/imported/nat-llegada.dialogue-ed6e5b7e8cd06d02e22cda39a5c9ecad.tres"]
+
+[params]
+
+defaults=true
