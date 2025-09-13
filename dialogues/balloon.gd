@@ -43,7 +43,7 @@ var mutation_cooldown: Timer = Timer.new()
 @onready var balloon: Control = %Balloon
 
 ## The label showing the portrait of the currently speaking character
-@onready var portrait: TextureRect = $Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/CharPortrait
+@onready var portrait: TextureRect = $Balloon/MarginContainer/CharPortrait
 
 ## The label showing the name of the currently speaking character
 @onready var character_label: RichTextLabel = %CharacterLabel
