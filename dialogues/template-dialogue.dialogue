@@ -1,0 +1,11 @@
+~ start
+Nat: [[Hi|Hello|Howdy]], this is some dialogue. Here we're adding extra stuff to see how they are handled by the interface.
+Nat: Here are some choices.
+- First one
+	Tinto: You picked the first one.
+- Second one
+	Tinto: You picked the second one.
+- Start again => start
+- End the conversation => END
+Narrator: For more information see the online documentation.
+=> END
