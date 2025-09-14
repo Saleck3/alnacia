@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://bfgn02yd5ftws"]
 
-[ext_resource type="Texture2D" uid="uid://61occmkqb206" path="res://scenes/props/chest.png" id="1_dsvcm"]
+[ext_resource type="Texture2D" uid="uid://bn41po2dp8v7b" path="res://scenes/props/chest.png" id="1_dsvcm"]
 [ext_resource type="Script" uid="uid://dp66ice2hhj8n" path="res://scripts/state_machine/state_machine.gd" id="2_cxsuu"]
 [ext_resource type="Script" uid="uid://6jad587efd0c" path="res://scenes/props/get_contents.gd" id="2_db0e2"]
 [ext_resource type="Script" uid="uid://cmc5vhgmy6nat" path="res://scripts/state_machine/states/state_interact.gd" id="3_xbw31"]
@@ -106,8 +106,10 @@ curve = SubResource("Curve_l0liu")
 duration = 0.2
 delay = 0.1
 property = "scale"
+start_value = ""
 end_value = "Vector2(0.1,0.2)"
 reset_value_at_end = true
+disabled = false
 
 [sub_resource type="Curve" id="Curve_jy2bj"]
 _limits = [-1.0, 1.0, 0.0, 1.0]
@@ -120,8 +122,10 @@ curve = SubResource("Curve_jy2bj")
 duration = 0.1
 delay = 0.0
 property = "position"
+start_value = ""
 end_value = "Vector2(10,0)"
 reset_value_at_end = true
+disabled = false
 
 [node name="Chest" type="Sprite2D"]
 y_sort_enabled = true
@@ -152,7 +156,7 @@ collision_layer = 0
 collision_mask = 8
 monitorable = false
 script = ExtResource("4_6rb7r")
-metadata/_custom_type_script = ExtResource("4_6rb7r")
+metadata/_custom_type_script = "uid://bgm8n3pwwbymt"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
 shape = SubResource("CircleShape2D_db0e2")
@@ -186,7 +190,7 @@ node = NodePath("../..")
 method_name = "get_contents"
 await_signal_to_complete = "contents_got"
 on_completion = [NodePath("../opened")]
-metadata/_custom_type_script = ExtResource("10_gbvtw")
+metadata/_custom_type_script = "uid://dd2m5xedjwd4m"
 
 [node name="opened" type="Node" parent="StateMachine" node_paths=PackedStringArray("animation_player")]
 script = ExtResource("6_v7cmp")

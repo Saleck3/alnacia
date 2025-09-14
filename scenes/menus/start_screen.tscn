@@ -1169,7 +1169,7 @@ theme_override_fonts/font = SubResource("FontFile_licy4")
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = SubResource("StyleBoxFlat_ng4jn")
 theme_override_styles/normal = SubResource("StyleBoxFlat_r03hu")
-text = "new_game"
+text = "New game"
 
 [node name="Continue" type="Button" parent="VBoxContainer/HBoxContainer/GridContainer"]
 unique_name_in_owner = true
@@ -1189,7 +1189,7 @@ theme_override_fonts/font = SubResource("FontFile_licy4")
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = SubResource("StyleBoxFlat_ng4jn")
 theme_override_styles/normal = SubResource("StyleBoxFlat_r03hu")
-text = "settings"
+text = "Settings"
 
 [node name="Quit" type="Button" parent="VBoxContainer/HBoxContainer/GridContainer"]
 unique_name_in_owner = true
@@ -1199,7 +1199,7 @@ theme_override_fonts/font = SubResource("FontFile_licy4")
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = SubResource("StyleBoxFlat_ng4jn")
 theme_override_styles/normal = SubResource("StyleBoxFlat_r03hu")
-text = "quit"
+text = "Quit"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
