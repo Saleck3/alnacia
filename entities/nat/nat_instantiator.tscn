@@ -1,8 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bjahstm66rjpf"]
+[gd_scene load_steps=2 format=3 uid="uid://bjahstm66rjpf"]
 
-[ext_resource type="Script" uid="uid://c50sdr1kt8hp2" path="res://entities/nat/nat_instantiator.gd" id="1_p50s7"]
-[ext_resource type="PackedScene" uid="uid://dfxvfxqwdnh48" path="res://entities/nat/nat.tscn" id="2_0ab17"]
+[ext_resource type="Script" uid="uid://c50sdr1kt8hp2" path="res://entities/player/player_instantiator.gd" id="1_p50s7"]
 
 [node name="P1" type="Marker2D"]
 script = ExtResource("1_p50s7")
-nat_scene = ExtResource("2_0ab17")

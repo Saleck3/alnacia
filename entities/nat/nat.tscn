@@ -1,7 +1,7 @@
 [gd_scene load_steps=162 format=3 uid="uid://dfxvfxqwdnh48"]
 
 [ext_resource type="PackedScene" uid="uid://d2nwo602rnihe" path="res://entities/entity.tscn" id="1_00jyf"]
-[ext_resource type="Script" uid="uid://ngyk1y3ddxjb" path="res://entities/nat/nat_entity.gd" id="2_krisj"]
+[ext_resource type="Script" uid="uid://ngyk1y3ddxjb" path="res://entities/player/player_entity.gd" id="2_krisj"]
 [ext_resource type="PackedScene" uid="uid://bvi5a0lq3brjw" path="res://particles/smoke_particles.tscn" id="5_uoaek"]
 [ext_resource type="Script" uid="uid://igey4j36or78" path="res://components/health_controller.gd" id="6_dorb1"]
 [ext_resource type="Texture2D" uid="uid://c5ohv45xjbx2f" path="res://assets/characters/nat/bajada_rocas.png" id="7_ebx2o"]
