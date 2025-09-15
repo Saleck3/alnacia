@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://b0b0jp36dubff"]
+[gd_scene load_steps=5 format=3 uid="uid://b0b0jp36dubff"]
 
 [ext_resource type="Script" uid="uid://dte41yq56gi4u" path="res://scenes/levels/level.gd" id="1_cq0rv"]
 [ext_resource type="PackedScene" uid="uid://8vwu5i52l856" path="res://scenes/system/game_camera.tscn" id="2_d25mt"]
 [ext_resource type="TileSet" uid="uid://ceswxvl27cesm" path="res://tilesets/isometric/tileset.tres" id="3_jvuwd"]
 [ext_resource type="Script" uid="uid://c7b1xfu55p5mn" path="res://scripts/tilemap_navigation.gd" id="4_6158f"]
-[ext_resource type="PackedScene" uid="uid://bjahstm66rjpf" path="res://entities/player/player_instantiator.tscn" id="7_a3ws7"]
 
 [node name="Level" type="Node2D" groups=["level"]]
 y_sort_enabled = true
@@ -52,8 +51,6 @@ metadata/_edit_lock_ = true
 [node name="Entities" type="Node2D" parent="."]
 y_sort_enabled = true
 metadata/_edit_lock_ = true
-
-[node name="P1" parent="Entities" instance=ExtResource("7_a3ws7")]
 
 [node name="Transfers" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
